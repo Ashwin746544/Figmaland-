@@ -1,0 +1,116 @@
+.myText, .myH1, .myH2, .myH3, .myH4, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.myPlaceholder::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.partners h2 {
+  margin-bottom: 27px;
+}
+
+.partners .info {
+  width: 298px;
+  text-align: center;
+}
+
+.partners .partner-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+  margin-bottom: 80px;
+  height: 100.55px;
+}
+
+.partners .partner-icons img:not(img:last-child) {
+  margin-right: 67px;
+}
+
+.partners .myButton {
+  width: 236px;
+  height: 65px;
+  padding: 16px 0px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+/*# sourceMappingURL=partners.css.map */
