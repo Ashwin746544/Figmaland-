@@ -1,6 +1,7 @@
 .myText, .myH1, .myH2, .myH3, .myH4, .myP {
   color: #ffffff;
   font-style: normal;
+  margin: 0;
 }
 
 .myH1 {
@@ -83,5 +84,6 @@
 
 .intro .myButton h3 {
   color: #2091f9;
+  margin: 0;
 }
 /*# sourceMappingURL=intro.css.map */

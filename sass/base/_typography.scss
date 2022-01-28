@@ -2,6 +2,7 @@
 .myText {
   color: $white;
   font-style: normal;
+  margin: 0;
 }
 .myH1 {
   @extend .myText;

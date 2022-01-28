@@ -1,6 +1,7 @@
 .myText, .myH1, .myH2, .myH3, .myH4, .myP {
   color: #ffffff;
   font-style: normal;
+  margin: 0;
 }
 
 .myH1 {
@@ -60,9 +61,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .feature .feature-bottom .left {
@@ -72,6 +70,7 @@
 
 .feature .feature-bottom .left img {
   width: 949.62px;
+  vertical-align: top;
 }
 
 .feature .feature-bottom .right {
