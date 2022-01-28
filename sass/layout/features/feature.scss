@@ -1,0 +1,58 @@
+@import "../../base/_typography.scss";
+.feature {
+  .feature-top {
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 138.51px;
+    h2 {
+      margin-top: 17px;
+      margin-bottom: 27px;
+    }
+    div {
+      width: 298px;
+      margin: auto;
+    }
+  }
+  .feature-bottom {
+    padding-bottom: 153.66px;
+    display: flex;
+    justify-content: center;
+    .left {
+      margin-left: 67.69px;
+      margin-right: 94.71px;
+      img {
+        width: 949.62px;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      div.content {
+        width: 255px;
+        .icon-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 53px;
+          img {
+            width: 43px;
+            margin-right: 10px;
+          }
+          h3 {
+            margin: 0;
+          }
+        }
+        .discription {
+          margin: 10px 0px;
+          .myP {
+            margin: 0;
+          }
+        }
+      }
+      .content-1 {
+        margin-bottom: 75px;
+      }
+    }
+  }
+}

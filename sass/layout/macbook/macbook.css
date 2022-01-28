@@ -1,0 +1,11 @@
+.macbook-container {
+  background-image: url(../../../assets/macbook/curve.svg);
+  text-align: center;
+  padding-bottom: 134.73px;
+  padding-top: 114.73px;
+}
+
+.macbook-container img {
+  width: 1054.38px;
+}
+/*# sourceMappingURL=macbook.css.map */

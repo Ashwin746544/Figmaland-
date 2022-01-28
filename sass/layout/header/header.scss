@@ -1,0 +1,76 @@
+@import "../../base/variables";
+@import "../../base/reset";
+@import "../../base/shared";
+@import "../../components/link/link.scss";
+@import "../../components/input/input.scss";
+@import "../../components/button/button.scss";
+.placeholderStyle {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+.home {
+  background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 47px;
+  div.logo {
+    padding: 0px 10px;
+    vertical-align: middle;
+  }
+  nav {
+    padding: 17.5px 0px;
+    ul {
+      margin: 0;
+      display: flex;
+      list-style: none;
+      padding-left: 32px;
+      li {
+        padding: 0px 10px;
+        margin-right: 21px;
+      }
+      a.myLink {
+        text-decoration: none;
+        text-align: center;
+        color: $white;
+      }
+    }
+  }
+  .end {
+    padding-left: 33px;
+    .myInput {
+      border: none;
+      margin-right: 12px;
+      width: 273px;
+      &::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #18171d;
+        @extend .placeholderStyle;
+      }
+
+      &::-moz-placeholder {
+        @extend .placeholderStyle;
+      }
+
+      &::-ms-placeholder {
+        @extend .placeholderStyle;
+      }
+
+      &::placeholder {
+        @extend .placeholderStyle;
+      }
+    }
+    .myButton {
+      width: 141px;
+      border: none;
+      background-color: $white;
+      color: $primary;
+    }
+  }
+}

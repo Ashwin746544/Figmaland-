@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACjB,gBAAgB,EAAE,sCAAsC;EACxD,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,QAAQ;EACxB,WAAW,EAAE,QAAQ;CAItB;;AARD,AAKE,kBALgB,CAKhB,GAAG,CAAC;EACF,KAAK,EAAE,SAAS;CACjB",
+    "sources": [
+        "macbook.scss"
+    ],
+    "names": [],
+    "file": "macbook.css"
+}
