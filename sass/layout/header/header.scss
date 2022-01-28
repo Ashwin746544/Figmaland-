@@ -4,12 +4,13 @@
 @import "../../components/link/link.scss";
 @import "../../components/input/input.scss";
 @import "../../components/button/button.scss";
-.placeholderStyle {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
+@import "../../base/_typography.scss";
+// .placeholderStyle {
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.1px;
+//   color: #18171d;
+// }
 .home {
   background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
 }
@@ -48,25 +49,6 @@ header {
       border: none;
       margin-right: 12px;
       width: 273px;
-      &::-webkit-input-placeholder {
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.1px;
-        color: #18171d;
-        @extend .placeholderStyle;
-      }
-
-      &::-moz-placeholder {
-        @extend .placeholderStyle;
-      }
-
-      &::-ms-placeholder {
-        @extend .placeholderStyle;
-      }
-
-      &::placeholder {
-        @extend .placeholderStyle;
-      }
     }
     .myButton {
       width: 141px;

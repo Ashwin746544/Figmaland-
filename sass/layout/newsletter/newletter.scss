@@ -1,0 +1,40 @@
+@import "../../base/_typography.scss";
+@import "../../components/input/input.scss";
+.newsletter {
+  display: flex;
+  padding-top: 216px;
+  padding-bottom: 109px;
+  .left {
+    margin-left: 119px;
+    margin-right: 113px;
+    img {
+      vertical-align: top;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      margin-top: 17px;
+      margin-bottom: 35px;
+      margin-right: 0.6px;
+    }
+    div {
+      display: flex;
+      margin-top: 34px;
+      .myInput {
+        padding: 19px 39px;
+        background: #f4f4f4;
+        border: 1px solid #e8e8e8;
+        box-sizing: border-box;
+        border-radius: 39px;
+        margin-right: 12px;
+        width: 273px;
+      }
+      .myButton {
+        padding: 19px 38px;
+      }
+    }
+  }
+}

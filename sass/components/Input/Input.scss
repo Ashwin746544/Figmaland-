@@ -1,3 +1,4 @@
+@import "../../base/_typography.scss";
 .myInput {
   background: $white;
   border: 1px solid #e8e8e8;
@@ -10,4 +11,5 @@
   line-height: 16px;
   letter-spacing: 0.1px;
   color: #18171d;
+  @extend .myPlaceholder;
 }

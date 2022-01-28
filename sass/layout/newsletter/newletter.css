@@ -1,18 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-body {
-  margin: 0px;
-  font-family: "Roboto";
+.myText, .myH1, .myH2, .myH3, .myH4, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
 }
 
-.myLink {
-  font-family: "Roboto";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
   line-height: 27px;
-  letter-spacing: 0.20000000298023224px;
-  text-align: left;
-  color: #ffffff;
+  letter-spacing: 0.2px;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::placeholder, .myInput::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
 }
 
 .myText, .myH1, .myH2, .myH3, .myH4, .myP {
@@ -92,150 +138,61 @@ body {
   color: #18171d;
 }
 
-.myButton {
-  padding: 18px 38px;
-  background: #2091f9;
-  border-radius: 35px;
-  color: #ffffff;
-  height: 54px;
-  border: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 0.2px;
-}
-
-.myText, .myH1, .myH2, .myH3, .myH4, .myP {
-  color: #ffffff;
-  font-style: normal;
-  margin: 0;
-}
-
-.myH1 {
-  font-weight: 900;
-  font-size: 55px;
-  line-height: 65px;
-  letter-spacing: 0.2px;
-}
-
-.myH2 {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 46px;
-  line-height: 57px;
-  letter-spacing: 0.2px;
-}
-
-.myH3 {
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 33px;
-  letter-spacing: 0.1px;
-}
-
-.myH4 {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-}
-
-.myP {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: 0.2px;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::placeholder, .myInput::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.home {
-  background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
-}
-
-header {
+.newsletter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding-top: 216px;
+  padding-bottom: 109px;
+}
+
+.newsletter .left {
+  margin-left: 119px;
+  margin-right: 113px;
+}
+
+.newsletter .left img {
+  vertical-align: top;
+}
+
+.newsletter .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 47px;
 }
 
-header div.logo {
-  padding: 0px 10px;
-  vertical-align: middle;
+.newsletter .right h2 {
+  margin-top: 17px;
+  margin-bottom: 35px;
+  margin-right: 0.6px;
 }
 
-header nav {
-  padding: 17.5px 0px;
-}
-
-header nav ul {
-  margin: 0;
+.newsletter .right div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-  padding-left: 32px;
+  margin-top: 34px;
 }
 
-header nav ul li {
-  padding: 0px 10px;
-  margin-right: 21px;
-}
-
-header nav ul a.myLink {
-  text-decoration: none;
-  text-align: center;
-  color: #ffffff;
-}
-
-header .end {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-left: 33px;
-}
-
-header .end .myInput {
-  border: none;
+.newsletter .right div .myInput {
+  padding: 19px 39px;
+  background: #f4f4f4;
+  border: 1px solid #e8e8e8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39px;
   margin-right: 12px;
   width: 273px;
 }
 
-header .end .myButton {
-  width: 141px;
-  border: none;
-  background-color: #ffffff;
-  color: #2091f9;
+.newsletter .right div .myButton {
+  padding: 19px 38px;
 }
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=newletter.css.map */
