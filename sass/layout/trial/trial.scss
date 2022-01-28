@@ -1,0 +1,35 @@
+@import "../../base/_typography.scss";
+.trial {
+  text-align: center;
+  padding: 100px 0px;
+  h2 {
+    margin-top: 17px;
+    margin-bottom: 27px;
+  }
+  div.info {
+    width: 298px;
+    margin: auto;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    .myButton:first-child {
+      padding: 18px 31px;
+      height: 52px;
+      color: $primary;
+      background-color: $white;
+      margin-right: 12px;
+    }
+    .myButton:last-child {
+      // padding: 16px 45px;
+      padding: 15px 44px; //decresed 1px
+      vertical-align: middle;
+      height: 48px;
+      // width: 172px;
+      color: $white;
+      background-color: transparent;
+      border: 1px solid $white;
+    }
+  }
+}

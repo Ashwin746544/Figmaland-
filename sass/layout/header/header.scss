@@ -41,6 +41,8 @@ header {
     }
   }
   .end {
+    display: flex;
+    justify-content: center;
     padding-left: 33px;
     .myInput {
       border: none;
