@@ -1,0 +1,116 @@
+.myText, .myH1, .myH2, .myH3, .myH4, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.myPlaceholder::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.pricing {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.pricing .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing .content .left {
+  margin-right: 274px;
+}
+
+.pricing .content .left div.info {
+  width: 361px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pricing .content .right .myH4,
+.pricing .content .right .price {
+  margin-bottom: 16.5px;
+}
+
+.pricing .content .right .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing .content .right .price .myH1 {
+  margin-right: 10px;
+}
+
+.pricing .content .right .info {
+  width: 218px;
+  height: 60px;
+  margin-bottom: 19px;
+}
+
+.pricing .content .right .myButton {
+  height: 52px;
+}
+/*# sourceMappingURL=pricing.css.map */
