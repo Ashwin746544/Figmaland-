@@ -1,0 +1,172 @@
+.myText, .myH1, .myH2, .myH3, .myH4, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.myPlaceholder::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+.myLink {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.Testimonials {
+  padding-top: 111px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.Testimonials .users {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (335px)[3];
+      grid-template-columns: repeat(3, 335px);
+  grid-gap: 104px 60px;
+  margin: 0px 157px;
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+.Testimonials .users .user {
+  padding: 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 335px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+
+.Testimonials .users .user div.image-container {
+  margin-bottom: 40px;
+}
+
+.Testimonials .users .user div.image-container img {
+  width: 149px;
+}
+
+.Testimonials .users .user div.experience {
+  width: 251px;
+  margin: 0px 42px;
+  margin-bottom: 40px;
+}
+
+.Testimonials .users .user div.ratings {
+  margin-bottom: 30px;
+}
+
+.Testimonials .users .user div.ratings img {
+  vertical-align: top;
+  width: 24.33px;
+}
+
+.Testimonials .users .user .myP {
+  color: #18171d;
+}
+
+.Testimonials .users .user .myLink {
+  color: #18171d;
+}
+
+.Testimonials .users .user .myH5 {
+  margin: 10px 0px;
+}
+
+.Testimonials .myButton {
+  text-align: center;
+  padding: 16px 47px;
+  width: 280px;
+  height: 65px;
+}
+/*# sourceMappingURL=testinomials.css.map */
