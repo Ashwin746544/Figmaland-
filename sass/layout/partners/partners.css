@@ -1,4 +1,4 @@
-.myText, .myH1, .myH2, .myH3, .myH4, .myP {
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
   color: #ffffff;
   font-style: normal;
   margin: 0;
@@ -31,6 +31,13 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
 }
 
 .myP {

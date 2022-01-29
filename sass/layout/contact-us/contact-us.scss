@@ -1,0 +1,132 @@
+@import "../../base/_typography.scss";
+@import "../../components/button/button.scss";
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 210px;
+  padding-bottom: 99px;
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    .info {
+      width: 318px;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-top: 17px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    .icons {
+      width: 190.96px;
+      height: 60.99px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+  .map {
+    padding: 10px 0px;
+    box-sizing: border-box;
+    iframe {
+      width: 871px;
+      height: 323.19px;
+      vertical-align: top;
+    }
+  }
+  .top,
+  .map,
+  .address {
+    margin-bottom: 50px;
+  }
+  .address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .location,
+    .phone,
+    .mail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      .info {
+        margin-top: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        h5 {
+          text-align: center;
+        }
+      }
+    }
+    .location {
+      margin-right: 15px;
+      img {
+        width: 25.33px;
+        height: 31.67px;
+      }
+      .info {
+        width: 228px;
+      }
+    }
+    .phone {
+      margin-right: 15px;
+      img {
+        width: 20.42px;
+        height: 32.08px;
+      }
+    }
+    .mail {
+      img {
+        width: 26.25px;
+        height: 20.62px;
+      }
+    }
+  }
+  div.contact-form {
+    height: 670px;
+    width: 868px;
+    padding-top: 130px;
+    padding-bottom: 52px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    background-color: $white;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+      height: 100%;
+      width: 100%;
+      .myInput {
+        padding: 19px 20px;
+        background: #f5f5f5;
+        border: 1px solid #e8e8e8;
+      }
+      textarea {
+        @extend .myPlaceholder;
+        height: 193px;
+        box-sizing: border-box;
+        padding: 23px 20px;
+        background: #f5f5f5;
+        border: 1px solid #e8e8e8;
+        resize: none;
+      }
+      input[type="submit"] {
+        width: 145px;
+        height: 52px;
+        background-color: $primary;
+        color: $white;
+        border: none;
+      }
+    }
+  }
+}

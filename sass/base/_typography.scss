@@ -33,6 +33,13 @@
   line-height: 20px;
   letter-spacing: 0.2px;
 }
+.myH5 {
+  @extend .myText;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
 
 .myP {
   @extend .myText;
