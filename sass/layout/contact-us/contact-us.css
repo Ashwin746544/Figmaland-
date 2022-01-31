@@ -61,13 +61,6 @@
   color: #18171d;
 }
 
-.myPlaceholder::-webkit-input-placeholder, .contact-us div.contact-form form textarea::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
 .myButton {
   padding: 18px 38px;
   background: #2091f9;
@@ -277,6 +270,11 @@
   background: #f5f5f5;
   border: 1px solid #e8e8e8;
   resize: none;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
 }
 
 .contact-us div.contact-form form input[type="submit"] {

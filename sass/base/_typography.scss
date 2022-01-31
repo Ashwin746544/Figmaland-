@@ -48,32 +48,3 @@
   line-height: 27px;
   letter-spacing: 0.2px;
 }
-
-.placeholderStyle {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.myPlaceholder {
-  &::-webkit-input-placeholder {
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.1px;
-    color: #18171d;
-    @extend .placeholderStyle;
-  }
-
-  &::-moz-placeholder {
-    @extend .placeholderStyle;
-  }
-
-  &::-ms-placeholder {
-    @extend .placeholderStyle;
-  }
-
-  &::placeholder {
-    @extend .placeholderStyle;
-  }
-}

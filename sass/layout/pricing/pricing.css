@@ -47,27 +47,6 @@
   letter-spacing: 0.2px;
 }
 
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myPlaceholder::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.myPlaceholder::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
 .pricing {
   padding-top: 110px;
   padding-bottom: 100px;

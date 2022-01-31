@@ -47,27 +47,6 @@
   letter-spacing: 0.2px;
 }
 
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::placeholder, .myInput::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
 .myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
   color: #ffffff;
   font-style: normal;
@@ -117,27 +96,6 @@
   letter-spacing: 0.2px;
 }
 
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::placeholder, .myInput::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
 .myInput {
   background: #ffffff;
   border: 1px solid #e8e8e8;
@@ -146,6 +104,7 @@
   border-radius: 39px;
   padding: 19px 35px;
   height: 54px;
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.1px;

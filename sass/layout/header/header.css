@@ -4,6 +4,34 @@ body {
   font-family: "Roboto";
 }
 
+::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
+}
+
 .myLink {
   font-family: "Roboto";
   font-size: 15px;
@@ -65,27 +93,6 @@ body {
   letter-spacing: 0.2px;
 }
 
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::placeholder, .myInput::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
 .myInput {
   background: #ffffff;
   border: 1px solid #e8e8e8;
@@ -94,6 +101,7 @@ body {
   border-radius: 39px;
   padding: 19px 35px;
   height: 54px;
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.1px;
@@ -162,27 +170,6 @@ body {
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.2px;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .myInput::-moz-placeholder, .myPlaceholder::-ms-placeholder, .myInput::-ms-placeholder, .myPlaceholder::placeholder, .myInput::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.myPlaceholder::-webkit-input-placeholder, .myInput::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
 }
 
 .home {
