@@ -187,6 +187,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 47px;
+  position: relative;
 }
 
 header div.logo {
@@ -239,5 +240,76 @@ header .end .myButton {
   border: none;
   background-color: #ffffff;
   color: #2091f9;
+}
+
+header .hamberger {
+  display: none;
+}
+
+@media (max-width: 1180px) {
+  header nav {
+    position: absolute;
+    top: 109px;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    -webkit-transition: height 1s ease, padding 0.3s ease;
+    transition: height 1s ease, padding 0.3s ease;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header nav ul li {
+    margin-bottom: 10px;
+  }
+  header nav ul a.myLink {
+    color: #18171d;
+  }
+  header .nav-active {
+    -webkit-box-shadow: 2px 2px 2px 2px lightgray;
+            box-shadow: 2px 2px 2px 2px lightgray;
+    padding: 10px;
+    height: 190px;
+  }
+  header .hamberger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    height: 16px;
+    margin-left: 27.67px;
+  }
+  header .hamberger .line-1 {
+    width: 26.67px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  header .hamberger .line-2 {
+    width: 20px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  header .hamberger .line-3 {
+    width: 12px;
+    height: 3px;
+    background-color: #ffffff;
+  }
 }
 /*# sourceMappingURL=header.css.map */

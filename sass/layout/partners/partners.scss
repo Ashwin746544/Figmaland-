@@ -15,14 +15,17 @@
   }
   .partner-icons {
     display: flex;
-    justify-content: center;
+    // justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 90px;
     margin-bottom: 80px;
-    height: 100.55px;
-    img:not(img:last-child) {
-      margin-right: 67px;
-    }
+    // height: 100.55px;
+    max-width: 930px;
+    // img:not(img:last-child) {
+    //   margin-right: 67px;
+    // }
   }
   .myButton {
     width: 236px;
@@ -33,4 +36,21 @@
     line-height: 33px;
     letter-spacing: 0.1px;
   }
+}
+
+@media (max-width: 1100px) {
+}
+
+@media (max-width: 991.98px) {
+  .partners {
+    .partner-icons {
+      // height: 200.55px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
 }

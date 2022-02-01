@@ -19,6 +19,7 @@ header {
   align-items: center;
   justify-content: center;
   padding-top: 47px;
+  position: relative;
   div.logo {
     padding: 0px 10px;
     vertical-align: middle;
@@ -55,6 +56,59 @@ header {
       border: none;
       background-color: $white;
       color: $primary;
+    }
+  }
+  .hamberger {
+    display: none;
+  }
+  @media (max-width: 1180px) {
+    nav {
+      position: absolute;
+      top: 109px;
+      height: 0px;
+      overflow: hidden;
+      padding: 0px;
+      transition: height 1s ease, padding 0.3s ease;
+      width: 100%;
+      background-color: $white;
+      ul {
+        display: flex;
+        flex-direction: column;
+        li {
+          margin-bottom: 10px;
+        }
+        a.myLink {
+          color: $black;
+        }
+      }
+    }
+    .nav-active {
+      box-shadow: 2px 2px 2px 2px lightgray;
+      padding: 10px;
+      height: 190px;
+    }
+    .hamberger {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      height: 16px;
+      margin-left: 27.67px;
+      .line-1 {
+        width: 26.67px;
+        height: 3px;
+        background-color: $white;
+      }
+      .line-2 {
+        width: 20px;
+        height: 3px;
+        background-color: $white;
+      }
+      .line-3 {
+        width: 12px;
+        height: 3px;
+        background-color: $white;
+      }
     }
   }
 }

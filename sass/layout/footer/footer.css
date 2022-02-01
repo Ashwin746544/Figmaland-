@@ -84,14 +84,14 @@ footer {
   padding: 107px 0px;
 }
 
-footer div.left {
+footer .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 80px;
 }
 
-footer div.left .col {
+footer .left .col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,26 +101,26 @@ footer div.left .col {
           flex-direction: column;
 }
 
-footer div.left .col .title {
+footer .left .col .title {
   padding: 10px 0px;
   margin-bottom: 15px;
 }
 
-footer div.left .col a:not(:last-child) {
+footer .left .col a:not(:last-child) {
   margin-bottom: 16px;
 }
 
-footer div.left .first {
+footer .left .first {
   width: 171px;
 }
 
-footer div.left .second,
-footer div.left .third {
+footer .left .second,
+footer .left .third {
   width: 186px;
 }
 
-footer div.left .first,
-footer div.left .second {
+footer .left .first,
+footer .left .second {
   margin-right: 20px;
 }
 
@@ -175,5 +175,26 @@ footer .right div.subscription .myButton {
   width: 353px;
   height: 50px;
   margin-bottom: 24px;
+}
+
+@media (max-width: 1100px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .left {
+    margin-right: 0px;
+  }
+  footer .right {
+    margin-top: 80px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
