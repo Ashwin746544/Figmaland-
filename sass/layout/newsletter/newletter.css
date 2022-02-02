@@ -119,6 +119,20 @@
   padding-bottom: 109px;
 }
 
+.newsletter .top {
+  display: none;
+}
+
+.newsletter .top .myH2 {
+  margin-top: 17px;
+  margin-bottom: 27px;
+}
+
+.newsletter .top div.info {
+  width: 298px;
+  margin: auto;
+}
+
 .newsletter .left {
   margin-left: 119px;
   margin-right: 113px;
@@ -141,7 +155,7 @@
           justify-content: center;
 }
 
-.newsletter .right h2 {
+.newsletter .right .myH2 {
   margin-top: 17px;
   margin-bottom: 35px;
   margin-right: 0.6px;
@@ -186,18 +200,28 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+  }
+  .newsletter .right div .myInput,
+  .newsletter .right div .myButton {
+    width: 353px;
   }
   .newsletter .right div .myInput {
-    width: 100%;
+    width: 353px;
     margin-right: 0;
     margin-bottom: 12px;
   }
 }
 
 @media (max-width: 1200px) {
+  .newsletter .left {
+    margin-right: 70px;
+  }
+  .newsletter .left img {
+    width: 550px;
+  }
+}
+
+@media (max-width: 991.98px) {
   .newsletter {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -206,16 +230,53 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 81px;
   }
   .newsletter .left {
     margin-right: 0;
   }
   .newsletter .right {
-    margin-top: 98.25px;
+    width: 550px;
+    margin-top: 95.25px;
     text-align: center;
   }
-  .newsletter .right div .myH3 {
+  .newsletter .right .myH3 {
     margin-bottom: 10px;
+  }
+  .newsletter .right div {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .newsletter {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 114px;
+  }
+  .newsletter .top {
+    text-align: center;
+    display: block;
+    margin-bottom: 98.25px;
+  }
+  .newsletter .left {
+    padding: 0px 14.5px;
+  }
+  .newsletter .left img {
+    width: 100%;
+  }
+  .newsletter .right {
+    padding: 0px 32.5px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .newsletter .right .myH3:first-child,
+  .newsletter .right .myH2 {
+    display: none;
   }
 }
 

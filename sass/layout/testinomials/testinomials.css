@@ -130,11 +130,11 @@
 
 .Testimonials .users .user div.image-container img {
   width: 149px;
+  vertical-align: top;
 }
 
 .Testimonials .users .user div.experience {
-  width: 251px;
-  margin: 0px 42px;
+  padding: 0px 42px;
   margin-bottom: 40px;
 }
 
@@ -156,7 +156,8 @@
 }
 
 .Testimonials .users .user .myH5 {
-  margin: 10px 0px;
+  margin: 8.45px 0px;
+  color: #18171d;
 }
 
 .Testimonials .myButton {
@@ -173,6 +174,56 @@
     width: 730px;
   }
   .Testimonials .users .user:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .Testimonials .users {
+    -ms-grid-columns: (335px)[1];
+        grid-template-columns: repeat(1, 335px);
+    width: auto;
+    padding: 0px 59.05px;
+  }
+  .Testimonials .users .user:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .Testimonials .users {
+    -ms-grid-columns: (296.91px)[1];
+        grid-template-columns: repeat(1, 296.91px);
+    width: auto;
+    padding: 0px 59.05px;
+  }
+  .Testimonials .users .user {
+    padding: 33.81px 0px;
+  }
+  .Testimonials .users .user div.image-container {
+    margin-bottom: 33.81px;
+  }
+  .Testimonials .users .user div.image-container img {
+    width: 125.96px;
+  }
+  .Testimonials .users .user div.experience {
+    padding: 0px 42.45px;
+    margin-bottom: 35.87px;
+  }
+  .Testimonials .users .user div.ratings {
+    margin-bottom: 27.42px;
+  }
+  .Testimonials .users .user div.ratings img {
+    vertical-align: top;
+    width: 20.57px;
+  }
+  .Testimonials .users .user .myP {
+    font-size: 15.2163px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.16907px;
+  }
+  .Testimonials .users .user:nth-child(4) {
     display: none;
   }
 }

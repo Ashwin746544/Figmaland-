@@ -67,7 +67,8 @@
   margin-top: 148px;
 }
 
-.intro h1 {
+.intro h1,
+.intro h2 {
   margin-top: 27px;
   margin-bottom: 17px;
 }
@@ -92,5 +93,12 @@
 .intro .myButton h3 {
   color: #2091f9;
   margin: 0;
+}
+
+@media (max-width: 575px) {
+  .intro div {
+    width: 298px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=intro.css.map */

@@ -5,12 +5,6 @@
 @import "../../components/input/input.scss";
 @import "../../components/button/button.scss";
 @import "../../base/_typography.scss";
-// .placeholderStyle {
-//   font-size: 14px;
-//   line-height: 16px;
-//   letter-spacing: 0.1px;
-//   color: #18171d;
-// }
 .home {
   background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
 }
@@ -45,23 +39,40 @@ header {
   .end {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-left: 33px;
-    .myInput {
-      border: none;
-      margin-right: 12px;
-      width: 273px;
+    .email-subscribe-container {
+      .myInput {
+        border: none;
+        margin-right: 12px;
+        width: 273px;
+      }
+      .myButton {
+        width: 141px;
+        border: none;
+        background-color: $white;
+        color: $primary;
+      }
     }
-    .myButton {
-      width: 141px;
-      border: none;
-      background-color: $white;
-      color: $primary;
+    .login {
+      display: none;
+      .myButton {
+        background-color: $white;
+        color: $primary;
+        width: 117px;
+        height: 52px;
+      }
+    }
+    .hamberger {
+      display: none;
     }
   }
-  .hamberger {
-    display: none;
-  }
-  @media (max-width: 1180px) {
+}
+@media (max-width: 1180px) {
+  header {
+    width: 950px;
+    justify-content: space-between;
+    margin: auto;
     nav {
       position: absolute;
       top: 109px;
@@ -87,27 +98,73 @@ header {
       padding: 10px;
       height: 190px;
     }
-    .hamberger {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-end;
-      height: 16px;
-      margin-left: 27.67px;
-      .line-1 {
-        width: 26.67px;
-        height: 3px;
-        background-color: $white;
+    .end {
+      .hamberger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 16px;
+        margin-left: 27.67px;
+        .line-1 {
+          width: 26.67px;
+          height: 3px;
+          background-color: $white;
+        }
+        .line-2 {
+          width: 20px;
+          height: 3px;
+          background-color: $white;
+        }
+        .line-3 {
+          width: 12px;
+          height: 3px;
+          background-color: $white;
+        }
       }
-      .line-2 {
-        width: 20px;
-        height: 3px;
-        background-color: $white;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    width: 730px;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: calc(100% - 80px);
+    .end {
+      .email-subscribe-container {
+        display: none;
       }
-      .line-3 {
-        width: 12px;
-        height: 3px;
-        background-color: $white;
+      .login {
+        display: block;
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  header {
+    // margin-left: 25px;
+    // margin-right: 22.66px;
+    // width: calc(100% - 47.66px);
+    padding-left: 25px;
+    padding-right: 22.66px;
+    padding-top: 27px;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    div.logo {
+      padding-right: 0;
+      margin-right: 3px;
+    }
+    .end {
+      padding-left: 0;
+      .login {
+        display: block;
       }
     }
   }

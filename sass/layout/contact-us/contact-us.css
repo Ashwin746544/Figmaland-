@@ -47,20 +47,6 @@
   letter-spacing: 0.2px;
 }
 
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .contact-us div.contact-form form textarea::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .contact-us div.contact-form form textarea::-moz-placeholder, .myPlaceholder::-ms-placeholder, .contact-us div.contact-form form textarea::-ms-placeholder, .myPlaceholder::-webkit-input-placeholder, .contact-us div.contact-form form textarea::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
-.placeholderStyle, .myPlaceholder::-webkit-input-placeholder, .contact-us div.contact-form form textarea::-webkit-input-placeholder, .myPlaceholder::-moz-placeholder, .contact-us div.contact-form form textarea::-moz-placeholder, .myPlaceholder::-ms-placeholder, .contact-us div.contact-form form textarea::-ms-placeholder, .myPlaceholder::placeholder, .contact-us div.contact-form form textarea::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-  color: #18171d;
-}
-
 .myButton {
   padding: 18px 38px;
   background: #2091f9;
@@ -283,5 +269,52 @@
   background-color: #2091f9;
   color: #ffffff;
   border: none;
+}
+
+@media (max-width: 991px) {
+  .contact-us .map iframe {
+    width: 700px;
+  }
+  .contact-us div.contact-form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-us .map iframe {
+    width: 518px;
+  }
+  .contact-us div.contact-form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-us .map {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: calc(100% - 60px);
+  }
+  .contact-us .map iframe {
+    width: 100%;
+  }
+  .contact-us .address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-us .address .location,
+  .contact-us .address .phone,
+  .contact-us .address .mail {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact-us div.contact-form {
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+  }
 }
 /*# sourceMappingURL=contact-us.css.map */

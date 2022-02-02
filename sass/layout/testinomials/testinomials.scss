@@ -38,11 +38,11 @@
           margin-bottom: 40px;
           img {
             width: 149px;
+            vertical-align: top;
           }
         }
         &.experience {
-          width: 251px;
-          margin: 0px 42px;
+          padding: 0px 42px;
           margin-bottom: 40px;
         }
         &.ratings {
@@ -62,7 +62,8 @@
         color: $black;
       }
       .myH5 {
-        margin: 10px 0px;
+        margin: 8.45px 0px;
+        color: $black;
       }
     }
   }
@@ -93,12 +94,58 @@
 }
 
 @media (max-width: 767.98px) {
+  .Testimonials {
+    .users {
+      grid-template-columns: repeat(1, 335px);
+      width: auto;
+      padding: 0px 59.05px;
+      .user:nth-last-child(-n + 2) {
+        display: none;
+      }
+    }
+  }
 }
 
 @media (max-width: 575.98px) {
+  .Testimonials {
+    .users {
+      grid-template-columns: repeat(1, 296.91px);
+      width: auto;
+      padding: 0px 59.05px;
+      .user {
+        padding: 33.81px 0px;
+        div {
+          &.image-container {
+            margin-bottom: 33.81px;
+            img {
+              width: 125.96px;
+            }
+          }
+          &.experience {
+            padding: 0px 42.45px;
+            margin-bottom: 35.87px;
+          }
+          &.ratings {
+            margin-bottom: 27.42px;
+            img {
+              vertical-align: top;
+              width: 20.57px;
+            }
+          }
+        }
+        .myP {
+          font-size: 15.2163px;
+          line-height: 23px;
+          text-align: center;
+          letter-spacing: 0.16907px;
+        }
+      }
+      .user:nth-child(4) {
+        display: none;
+      }
+    }
+  }
 }
 
 @media (min-width: 1440px) {
-  .Testimonials {
-  }
 }

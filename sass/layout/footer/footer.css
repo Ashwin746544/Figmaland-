@@ -197,4 +197,28 @@ footer .right div.subscription .myButton {
             align-items: center;
   }
 }
+
+@media (max-width: 767.98px) {
+  footer .left .col {
+    width: 140px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  footer .left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .left .col {
+    width: 186px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .left .col:not(:last-child) {
+    margin-bottom: 73px;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

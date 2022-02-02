@@ -226,27 +226,48 @@ header .end {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 33px;
 }
 
-header .end .myInput {
+header .end .email-subscribe-container .myInput {
   border: none;
   margin-right: 12px;
   width: 273px;
 }
 
-header .end .myButton {
+header .end .email-subscribe-container .myButton {
   width: 141px;
   border: none;
   background-color: #ffffff;
   color: #2091f9;
 }
 
-header .hamberger {
+header .end .login {
+  display: none;
+}
+
+header .end .login .myButton {
+  background-color: #ffffff;
+  color: #2091f9;
+  width: 117px;
+  height: 52px;
+}
+
+header .end .hamberger {
   display: none;
 }
 
 @media (max-width: 1180px) {
+  header {
+    width: 950px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
   header nav {
     position: absolute;
     top: 109px;
@@ -279,7 +300,7 @@ header .hamberger {
     padding: 10px;
     height: 190px;
   }
-  header .hamberger {
+  header .end .hamberger {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -296,20 +317,62 @@ header .hamberger {
     height: 16px;
     margin-left: 27.67px;
   }
-  header .hamberger .line-1 {
+  header .end .hamberger .line-1 {
     width: 26.67px;
     height: 3px;
     background-color: #ffffff;
   }
-  header .hamberger .line-2 {
+  header .end .hamberger .line-2 {
     width: 20px;
     height: 3px;
     background-color: #ffffff;
   }
-  header .hamberger .line-3 {
+  header .end .hamberger .line-3 {
     width: 12px;
     height: 3px;
     background-color: #ffffff;
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    width: 730px;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: calc(100% - 80px);
+  }
+  header .end .email-subscribe-container {
+    display: none;
+  }
+  header .end .login {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  header {
+    padding-left: 25px;
+    padding-right: 22.66px;
+    padding-top: 27px;
+    width: 100%;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  header div.logo {
+    padding-right: 0;
+    margin-right: 3px;
+  }
+  header .end {
+    padding-left: 0;
+  }
+  header .end .login {
+    display: block;
   }
 }
 /*# sourceMappingURL=header.css.map */
