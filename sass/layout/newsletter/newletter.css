@@ -260,7 +260,7 @@
   .newsletter .top {
     text-align: center;
     display: block;
-    margin-bottom: 98.25px;
+    margin-bottom: 95.25px;
   }
   .newsletter .left {
     padding: 0px 14.5px;
@@ -277,6 +277,16 @@
   .newsletter .right .myH3:first-child,
   .newsletter .right .myH2 {
     display: none;
+  }
+  .newsletter .right div .myButton {
+    height: 50px;
+  }
+}
+
+@media (max-width: 417px) {
+  .newsletter .right div .myInput,
+  .newsletter .right div .myButton {
+    width: 100%;
   }
 }
 

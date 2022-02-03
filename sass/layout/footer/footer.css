@@ -205,6 +205,9 @@ footer .right div.subscription .myButton {
 }
 
 @media (max-width: 575.98px) {
+  footer {
+    padding: 73px 0px;
+  }
   footer .left {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -219,6 +222,22 @@ footer .right div.subscription .myButton {
   }
   footer .left .col:not(:last-child) {
     margin-bottom: 73px;
+  }
+}
+
+@media (max-width: 417px) {
+  footer .right {
+    width: 100%;
+    padding: 0px 22.5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  footer .right .info {
+    text-align: center;
+  }
+  footer .right div.subscription .myInput,
+  footer .right div.subscription .myButton {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=footer.css.map */

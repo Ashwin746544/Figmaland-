@@ -65,7 +65,11 @@
   margin-right: 274px;
 }
 
-.pricing .content .left div.info {
+.pricing .content .left .myH1 {
+  margin-bottom: 16px;
+}
+
+.pricing .content .left .info {
   width: 361px;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -127,15 +131,19 @@
     margin-right: 0;
     margin-bottom: 102px;
   }
+  .pricing .content .right .myButton {
+    display: block;
+    margin: auto;
+  }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 417px) {
   .pricing {
     padding-left: 35px;
     padding-right: 22px;
   }
-  .pricing .content {
-    padding: 0px 35px;
+  .pricing .content .left .info {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=pricing.css.map */

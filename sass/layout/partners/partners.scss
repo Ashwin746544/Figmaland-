@@ -26,6 +26,15 @@
     .icon-container {
       padding: 15px;
       margin: 0px 18.5px;
+      img {
+        vertical-align: top;
+      }
+    }
+    .icon-container:nth-child(3) {
+      padding: 10px 15px;
+    }
+    .icon-container:nth-child(5) {
+      padding: 12.5px 15px;
     }
   }
   .myButton {
@@ -50,10 +59,18 @@
     padding-top: 60px;
     padding-bottom: 50px;
     .partner-icons {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      flex-direction: column;
       .icon-container {
         margin: 15px 0px;
       }
-      flex-direction: column;
+      .icon-container:nth-child(3) {
+        padding: 15px;
+      }
+      .icon-container:nth-child(5) {
+        padding: 15px;
+      }
       .icon-container:nth-last-child(-n + 2) {
         display: none;
       }

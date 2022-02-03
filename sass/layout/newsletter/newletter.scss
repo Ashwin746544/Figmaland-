@@ -120,7 +120,7 @@
     .top {
       text-align: center;
       display: block;
-      margin-bottom: 98.25px;
+      margin-bottom: 95.25px;
     }
     .left {
       padding: 0px 14.5px;
@@ -135,6 +135,23 @@
       .myH3:first-child,
       .myH2 {
         display: none;
+      }
+      div {
+        .myButton {
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 417px) {
+  .newsletter {
+    .right {
+      div {
+        .myInput,
+        .myButton {
+          width: 100%;
+        }
       }
     }
   }

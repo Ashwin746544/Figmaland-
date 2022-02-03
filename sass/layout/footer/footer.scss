@@ -98,6 +98,7 @@ footer {
 
 @media (max-width: 575.98px) {
   footer {
+    padding: 73px 0px;
     .left {
       flex-direction: column;
       .col {
@@ -106,6 +107,24 @@ footer {
       }
       .col:not(:last-child) {
         margin-bottom: 73px;
+      }
+    }
+  }
+}
+@media (max-width: 417px) {
+  footer {
+    .right {
+      width: 100%;
+      padding: 0px 22.5px;
+      box-sizing: border-box;
+      .info {
+        text-align: center;
+      }
+      div.subscription {
+        .myInput,
+        .myButton {
+          width: 100%;
+        }
       }
     }
   }

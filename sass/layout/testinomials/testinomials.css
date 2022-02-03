@@ -138,8 +138,13 @@
   margin-bottom: 40px;
 }
 
+.Testimonials .users .user div.experience .myP {
+  color: #18171d;
+}
+
 .Testimonials .users .user div.ratings {
   margin-bottom: 30px;
+  padding: 2.43px 0px;
 }
 
 .Testimonials .users .user div.ratings img {
@@ -147,15 +152,11 @@
   width: 24.33px;
 }
 
-.Testimonials .users .user .myP {
+.Testimonials .users .user div.info .myLink {
   color: #18171d;
 }
 
-.Testimonials .users .user .myLink {
-  color: #18171d;
-}
-
-.Testimonials .users .user .myH5 {
+.Testimonials .users .user div.info .myH5 {
   margin: 8.45px 0px;
   color: #18171d;
 }
@@ -191,11 +192,17 @@
 }
 
 @media (max-width: 575.98px) {
+  .Testimonials {
+    padding-top: 121px;
+  }
   .Testimonials .users {
     -ms-grid-columns: (296.91px)[1];
         grid-template-columns: repeat(1, 296.91px);
+    grid-gap: 69px 60px;
     width: auto;
     padding: 0px 59.05px;
+    margin-top: 108px;
+    margin-bottom: 98px;
   }
   .Testimonials .users .user {
     padding: 33.81px 0px;
@@ -208,14 +215,25 @@
   }
   .Testimonials .users .user div.experience {
     padding: 0px 42.45px;
-    margin-bottom: 35.87px;
+    margin-bottom: 33.81px;
   }
   .Testimonials .users .user div.ratings {
-    margin-bottom: 27.42px;
+    margin-bottom: 25.36px;
+    padding: 2.06px 0px;
   }
   .Testimonials .users .user div.ratings img {
     vertical-align: top;
     width: 20.57px;
+  }
+  .Testimonials .users .user div.info .myLink {
+    font-size: 12.6802px;
+    line-height: 23px;
+    letter-spacing: 0.16907px;
+  }
+  .Testimonials .users .user div.info .myH5 {
+    font-size: 10.1442px;
+    line-height: 15px;
+    letter-spacing: 0.0845349px;
   }
   .Testimonials .users .user .myP {
     font-size: 15.2163px;
@@ -225,6 +243,13 @@
   }
   .Testimonials .users .user:nth-child(4) {
     display: none;
+  }
+}
+
+@media (max-width: 417px) {
+  .Testimonials .users {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
   }
 }
 /*# sourceMappingURL=testinomials.css.map */

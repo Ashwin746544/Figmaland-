@@ -192,7 +192,10 @@ header {
 
 header div.logo {
   padding: 0px 10px;
-  vertical-align: middle;
+}
+
+header div.logo img {
+  vertical-align: top;
 }
 
 header nav {
@@ -211,6 +214,7 @@ header nav ul {
 header nav ul li {
   padding: 0px 10px;
   margin-right: 21px;
+  cursor: pointer;
 }
 
 header nav ul a.myLink {
@@ -274,10 +278,13 @@ header .end .hamberger {
     height: 0px;
     overflow: hidden;
     padding: 0px;
-    -webkit-transition: height 1s ease, padding 0.3s ease;
-    transition: height 1s ease, padding 0.3s ease;
-    width: 100%;
-    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 10px);
+    margin-left: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #ffffffb5;
   }
   header nav ul {
     display: -webkit-box;
@@ -287,18 +294,25 @@ header .end .hamberger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0;
   }
-  header nav ul li {
+  header nav ul li:not(:last-child) {
     margin-bottom: 10px;
   }
   header nav ul a.myLink {
     color: #18171d;
   }
   header .nav-active {
-    -webkit-box-shadow: 2px 2px 2px 2px lightgray;
-            box-shadow: 2px 2px 2px 2px lightgray;
+    -webkit-transition: height 0.5s ease, padding 0.3s ease;
+    transition: height 0.5s ease, padding 0.3s ease;
+    -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    height: 190px;
+    height: 195px;
+  }
+  header .close_transition {
+    -webkit-transition: height 0.5s ease, padding 0.3s ease;
+    transition: height 0.5s ease, padding 0.3s ease;
   }
   header .end .hamberger {
     display: -webkit-box;
@@ -364,6 +378,9 @@ header .end .hamberger {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
+  header nav {
+    width: calc(100% - 10px - 47.66px);
+  }
   header div.logo {
     padding-right: 0;
     margin-right: 3px;
@@ -373,6 +390,12 @@ header .end .hamberger {
   }
   header .end .login {
     display: block;
+  }
+}
+
+@media (max-width: 418px) {
+  header .end .login {
+    display: none;
   }
 }
 /*# sourceMappingURL=header.css.map */
