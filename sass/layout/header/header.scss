@@ -51,7 +51,7 @@ header {
         width: 273px;
       }
       .myButton {
-        width: 141px;
+        padding: 19px 38px;
         border: none;
         background-color: $white;
         color: $primary;
@@ -142,6 +142,9 @@ header {
 @media (max-width: 991px) {
   header {
     width: 730px;
+    .end {
+      padding: 0px;
+    }
   }
 }
 @media (max-width: 767px) {

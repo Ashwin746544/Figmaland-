@@ -243,7 +243,7 @@ header .end .email-subscribe-container .myInput {
 }
 
 header .end .email-subscribe-container .myButton {
-  width: 141px;
+  padding: 19px 38px;
   border: none;
   background-color: #ffffff;
   color: #2091f9;
@@ -351,6 +351,9 @@ header .end .hamberger {
 @media (max-width: 991px) {
   header {
     width: 730px;
+  }
+  header .end {
+    padding: 0px;
   }
 }
 
