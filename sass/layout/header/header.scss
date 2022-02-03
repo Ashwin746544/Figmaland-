@@ -1,10 +1,3 @@
-@import "../../base/variables";
-@import "../../base/reset";
-@import "../../base/shared";
-@import "../../components/link/link.scss";
-@import "../../components/input/input.scss";
-@import "../../components/button/button.scss";
-@import "../../base/_typography.scss";
 .home {
   background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
 }
@@ -164,9 +157,6 @@ header {
 }
 @media (max-width: 575px) {
   header {
-    // margin-left: 25px;
-    // margin-right: 22.66px;
-    // width: calc(100% - 47.66px);
     padding-left: 25px;
     padding-right: 22.66px;
     padding-top: 27px;

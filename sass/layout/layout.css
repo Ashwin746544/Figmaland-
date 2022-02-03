@@ -36,68 +36,16 @@ body {
   color: #18171d;
 }
 
-.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
-  color: #ffffff;
+.myLink {
+  font-family: "Roboto";
+  font-size: 15px;
   font-style: normal;
-  margin: 0;
-}
-
-.myH1 {
-  font-weight: 900;
-  font-size: 55px;
-  line-height: 65px;
-  letter-spacing: 0.2px;
-}
-
-.myH2 {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 46px;
-  line-height: 57px;
-  letter-spacing: 0.2px;
-}
-
-.myH3 {
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 33px;
-  letter-spacing: 0.1px;
-}
-
-.myH4 {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-}
-
-.myH5 {
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0.1px;
-}
-
-.myP {
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0.2px;
-}
-
-.myButton {
-  padding: 18px 38px;
-  background: #2091f9;
-  border-radius: 35px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
   color: #ffffff;
-  height: 54px;
-  border: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 0.2px;
+  text-decoration: none;
 }
 
 .myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
@@ -164,16 +112,68 @@ body {
   color: #18171d;
 }
 
-.myLink {
-  font-family: "Roboto";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0.20000000298023224px;
-  text-align: left;
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
   color: #ffffff;
-  text-decoration: none;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
 }
 
 .home {
@@ -406,6 +406,70 @@ header .end .hamberger {
   }
 }
 
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
 .intro {
   text-align: center;
   margin-top: 148px;
@@ -501,6 +565,55 @@ header .end .hamberger {
   .macbook-container img {
     width: 100%;
   }
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
 }
 
 .feature .feature-top {
@@ -654,7 +767,7 @@ header .end .hamberger {
   }
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
   .feature {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -667,6 +780,55 @@ header .end .hamberger {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
 }
 
 .trial {
@@ -719,6 +881,119 @@ header .end .hamberger {
   .trial .buttons {
     margin-top: 69px;
   }
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myInput {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39px;
+  padding: 19px 35px;
+  height: 54px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #18171d;
 }
 
 .newsletter {
@@ -900,7 +1175,7 @@ header .end .hamberger {
   }
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
   .newsletter {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -909,6 +1184,55 @@ header .end .hamberger {
   .newsletter .left {
     margin-left: 0;
   }
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
 }
 
 .partners {
@@ -1010,6 +1334,82 @@ header .end .hamberger {
   }
 }
 
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myLink {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
 .Testimonials {
   padding-top: 111px;
   padding-bottom: 100px;
@@ -1029,8 +1429,8 @@ header .end .hamberger {
 .Testimonials .users {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 335px 335px 335px;
-      grid-template-columns: 335px 335px 335px;
+  -ms-grid-columns: (335px)[3];
+      grid-template-columns: repeat(3, 335px);
   grid-gap: 104px 60px;
   width: 1125px;
   margin-top: 90px;
@@ -1106,8 +1506,8 @@ header .end .hamberger {
 
 @media (max-width: 1150px) {
   .Testimonials .users {
-    -ms-grid-columns: 335px 335px;
-        grid-template-columns: 335px 335px;
+    -ms-grid-columns: (335px)[2];
+        grid-template-columns: repeat(2, 335px);
     width: 730px;
   }
   .Testimonials .users .user:nth-last-child(-n + 2) {
@@ -1117,8 +1517,8 @@ header .end .hamberger {
 
 @media (max-width: 767.98px) {
   .Testimonials .users {
-    -ms-grid-columns: 335px;
-        grid-template-columns: 335px;
+    -ms-grid-columns: (335px)[1];
+        grid-template-columns: repeat(1, 335px);
     width: auto;
     padding: 0px 59.05px;
   }
@@ -1132,8 +1532,8 @@ header .end .hamberger {
     padding-top: 121px;
   }
   .Testimonials .users {
-    -ms-grid-columns: 296.91px;
-        grid-template-columns: 296.91px;
+    -ms-grid-columns: (296.91px)[1];
+        grid-template-columns: repeat(1, 296.91px);
     grid-gap: 69px 60px;
     width: auto;
     padding: 0px 59.05px;
@@ -1187,6 +1587,55 @@ header .end .hamberger {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
   }
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
 }
 
 .pricing {
@@ -1287,6 +1736,70 @@ header .end .hamberger {
   .pricing .content .left .info {
     width: 100%;
   }
+}
+
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
 }
 
 .contact-us {
@@ -1572,6 +2085,82 @@ header .end .hamberger {
   }
 }
 
+.myText, .myH1, .myH2, .myH3, .myH4, .myH5, .myP {
+  color: #ffffff;
+  font-style: normal;
+  margin: 0;
+}
+
+.myH1 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+
+.myH2 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.myH3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+.myH4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.myH5 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.myP {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+.myButton {
+  padding: 18px 38px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: #ffffff;
+  height: 54px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.myLink {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1738,4 +2327,4 @@ footer .right div.subscription .myButton {
     width: 100%;
   }
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=layout.css.map */

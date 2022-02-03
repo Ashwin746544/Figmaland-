@@ -4,6 +4,10 @@ body {
   font-family: "Roboto";
 }
 
+.container {
+  background: #252b42;
+}
+
 ::-webkit-input-placeholder {
   font-size: 14px;
   line-height: 16px;

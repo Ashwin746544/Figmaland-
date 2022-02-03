@@ -1,4 +1,3 @@
-@import "../../base/_typography.scss";
 .feature {
   .feature-top {
     text-align: center;
@@ -55,8 +54,6 @@
     }
   }
 }
-
-// @media (max-width: 1199.98px) { ... }
 
 @media (max-width: 1399.98px) {
   .feature {
@@ -133,7 +130,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
   .feature {
     display: flex;
     flex-direction: column;

@@ -1,4 +1,3 @@
-@import "../../base/_typography.scss";
 .trial {
   text-align: center;
   padding: 100px 0px;
@@ -22,11 +21,9 @@
       margin-right: 12px;
     }
     .myButton:last-child {
-      // padding: 16px 45px;
       padding: 15px 44px; //decresed 1px
       vertical-align: middle;
       height: 48px;
-      // width: 172px;
       color: $white;
       background-color: transparent;
       border: 1px solid $white;
